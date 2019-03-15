@@ -14,7 +14,8 @@ Before we deploy any model, let’s first build one. For now, let’s build a si
 import pickle
 from flask import Flask, request
 import numpy as np
-import pandas as pd'''
+import pandas as pd
+'''
 
 The Iris dataset looks something like this - 
 
