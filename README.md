@@ -9,8 +9,11 @@ autogenerating_UI_flasgger.py -> building app to deploy the Random Forest model 
 
 Building an ML model
 Before we deploy any model, let’s first build one. For now, let’s build a simple model on a simple dataset so that we can spend more time on the deployment part. We will use the Iris dataset from sklearn’s datasets. The required imports are given below.
-![Libraries](https://drive.google.com/open?id=1suEGfgTOt0Cs-8bG8sSszlyAlyUNqGrA)
 
+' import pickle
+from flask import Flask, request
+import numpy as np
+import pandas as pd'
 
 The Iris dataset looks something like this - 
 
